@@ -1,4 +1,3 @@
-// api/index.js
 const jsonServer = require("json-server");
 const path = require("path");
 
