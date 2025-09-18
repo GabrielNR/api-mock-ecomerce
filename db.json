@@ -1,0 +1,254 @@
+{
+  "users": [
+    {
+      "id": "user_1",
+      "name": "Cliente X",
+      "email": "cliente.x@email.com",
+      "orders": [
+        "order_1",
+        "order_2",
+        "order_3",
+        "order_4"
+      ]
+    },
+    {
+      "id": "user_2",
+      "name": "Fulano de Tal",
+      "email": "fulano.tal@email.com",
+      "orders": []
+    }
+  ],
+  "products": [
+    {
+      "id": "tinta-acrilica",
+      "title": "Tinta Acrílica Suvinil Fosco Completo",
+      "image": "https://cdnsuvinil-aybcfgd5fmh7brey.a03.azurefd.net/digital-products-img/ecommerce/images/rich-content/suvinil-toque-fosco-completo.webp?sv=2024-11-04&ss=bf&srt=co&sp=rt&se=2100-05-27T05:25:56Z&st=2025-05-26T21:25:56Z&spr=https,http&sig=zlnXLl3ughp/QHMt3Hzn/KyGTIdO6MCGnIeZZaKl2fQ=",
+      "images": [
+        "https://cdnsuvinil-aybcfgd5fmh7brey.a03.azurefd.net/digital-products-img/ecommerce/images/rich-content/suvinil-toque-fosco-completo.webp?sv=2024-11-04&ss=bf&srt=co&sp=rt&se=2100-05-27T05:25:56Z&st=2025-05-26T21:25:56Z&spr=https,http&sig=zlnXLl3ughp/QHMt3Hzn/KyGTIdO6MCGnIeZZaKl2fQ=",
+        "https://www.amigoconstrutor.com.br/dw/image/v2/BHFQ_PRD/on/demandware.static/-/Sites-at_catalog-marketplace/default/dwd90abd00/products/821ea794-1556-bece-6e0e-210ac067d4f8/swatch-small-medium-large/Tinta_Acrilica_Fosco_Completo_Base_B2_800ml_Suvinil_P_4702_01.jpg?sw=1000&sh=1000&sm=fit"
+      ],
+      "rating": 5,
+      "originalPrice": 259.9,
+      "discount": 0.23,
+      "currentPrice": 199.9,
+      "installments": "6x de R$ 33,32 sem juros",
+      "description": [
+        "Marca: Suvinil",
+        "Linha: Toque de Seda",
+        "Acabamento: Fosco Completo",
+        "Rendimento: Até 340m² por demão"
+      ],
+      "stock": 15,
+      "sellerName": "São José Construtora",
+      "category": "tintas",
+      "highlighted": false
+    },
+    {
+      "id": "cimento-votoran",
+      "title": "Cimento Votoran Todas as Obras 50kg",
+      "image": "/assets/cimento.png",
+      "images": [
+        "/assets/cimento.png"
+      ],
+      "rating": 4,
+      "originalPrice": 39.9,
+      "discount": 0.15,
+      "currentPrice": 33.9,
+      "installments": "em até 3x sem juros",
+      "description": [
+        "Marca: Votoran",
+        "Linha: Todas as Obras",
+        "Peso: 50kg",
+        "Tipo: CP-II F 32"
+      ],
+      "stock": 50,
+      "sellerName": "São José Construtora",
+      "category": "materiais-basicos",
+      "highlighted": false
+    },
+    {
+      "id": "janela-veneziana-23950",
+      "title": "Janela Veneziana de correr aço 23950 100cmX150cmX12cm",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_827837-MLU75720101855_042024-O.webp",
+      "images": [
+        "https://http2.mlstatic.com/D_NQ_NP_827837-MLU75720101855_042024-O.webp"
+      ],
+      "rating": 4,
+      "originalPrice": 785,
+      "discount": 0.09,
+      "currentPrice": 714,
+      "installments": "6x de R$ 119,00 sem juros",
+      "description": [
+        "Marca: Riobras",
+        "Linha: Silenfort",
+        "Dimensões: 100cm X 150cm X 12cm",
+        "Tipo de Abertura: De Correr",
+        "Acabamento: Primer de Fábrica",
+        "Material: Aço"
+      ],
+      "stock": 5,
+      "sellerName": "São José Construtora",
+      "category": "janelas",
+      "highlighted": false
+    },
+    {
+      "id": "porta-laminada-branca",
+      "title": "Porta de Aço Laminada Branca 2,15x0,85m",
+      "image": "/assets/porta_laminada.webp",
+      "images": [
+        "/assets/porta_laminada.webp"
+      ],
+      "rating": 3,
+      "originalPrice": 799,
+      "discount": 0.11,
+      "currentPrice": 710,
+      "installments": "6x de R$ 118,33 sem juros",
+      "description": [
+        "Marca: Riobras",
+        "Material: Aço",
+        "Tipo de Abertura: De abrir",
+        "Acabamento: Primer de Fábrica"
+      ],
+      "stock": 8,
+      "sellerName": "São José Construtora",
+      "category": "portas",
+      "highlighted": false
+    },
+    {
+      "id": "porta-sanfonada-pvc",
+      "title": "Porta Sanfonada PVC 2,10X0,80m",
+      "image": "https://cdn.awsli.com.br/600x450/718/718365/produto/165173228/cd6b1b6f61.jpg",
+      "images": [
+        "https://cdn.awsli.com.br/600x450/718/718365/produto/165173228/cd6b1b6f61.jpg"
+      ],
+      "rating": 5,
+      "originalPrice": 189.9,
+      "discount": 0.18,
+      "currentPrice": 154.9,
+      "installments": "6x de R$ 25,81 sem juros",
+      "description": [
+        "Marca: Polifort",
+        "Material: PVC",
+        "Tipo de Abertura: Sanfonada",
+        "Fácil instalação"
+      ],
+      "stock": 12,
+      "sellerName": "São José Construtora",
+      "brand": "POLIFORT",
+      "code": "921664",
+      "category": "portas",
+      "highlighted": false
+    },
+    {
+      "id": "janela-maximo-aco",
+      "title": "Janela Máximo de Aço 0,40x0,60cm",
+      "image": "https://sertao.vtexassets.com/arquivos/ids/213642-800-800?v=638678512045170000&width=800&height=800&aspect=true",
+      "images": [
+        "https://sertao.vtexassets.com/arquivos/ids/213642-800-800?v=638678512045170000&width=800&height=800&aspect=true"
+      ],
+      "rating": 4,
+      "originalPrice": 389.9,
+      "discount": 0.27,
+      "currentPrice": 270,
+      "installments": "6x de R$ 45,00 sem juros",
+      "description": [
+        "Marca: Riobras",
+        "Material: Aço",
+        "Tamanho compacto"
+      ],
+      "stock": 7,
+      "sellerName": "São José Construtora",
+      "brand": "RIOBRAS",
+      "code": "973465",
+      "category": "janelas",
+      "highlighted": false
+    },
+    {
+      "id": "janela-vitro-aco",
+      "title": "Janela vitro de correr aço 1,00x1,50m",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQALBicDKdnviEpKzp_7OiIIwn7KDkhWSpiog&s",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQALBicDKdnviEpKzp_7OiIIwn7KDkhWSpiog&s"
+      ],
+      "rating": 4,
+      "originalPrice": 849,
+      "discount": 0.14,
+      "currentPrice": 729,
+      "installments": "6x de R$ 121,50 sem juros",
+      "description": [
+        "Marca: Riobras",
+        "Material: Aço",
+        "Vidro temperado"
+      ],
+      "stock": 6,
+      "sellerName": "São José Construtora",
+      "brand": "RIOBRAS",
+      "code": "973410",
+      "category": "janelas",
+      "highlighted": false
+    }
+  ],
+  "orders": [
+    {
+      "id": "order_1",
+      "user_id": "user_1",
+      "orderDate": "2023-10-26",
+      "status": "completed",
+      "totalAmount": 199.9,
+      "items": [
+        {
+          "productId": "tinta-acrilica",
+          "quantity": 1,
+          "priceAtPurchase": 199.9
+        }
+      ]
+    },
+    {
+      "id": "order_2",
+      "user_id": "user_1",
+      "orderDate": "2023-11-01",
+      "status": "completed",
+      "totalAmount": 33.9,
+      "items": [
+        {
+          "productId": "cimento-votoran",
+          "quantity": 1,
+          "priceAtPurchase": 33.9
+        }
+      ]
+    },
+    {
+      "id": "order_3",
+      "user_id": "user_1",
+      "orderDate": "2023-11-05",
+      "status": "shipped",
+      "totalAmount": 714,
+      "items": [
+        {
+          "productId": "janela-veneziana-23950",
+          "quantity": 1,
+          "priceAtPurchase": 714
+        }
+      ]
+    },
+    {
+      "id": "order_4",
+      "user_id": "user_1",
+      "orderDate": "2023-11-08",
+      "status": "pending",
+      "totalAmount": 710,
+      "items": [
+        {
+          "productId": "porta-laminada-branca",
+          "quantity": 1,
+          "priceAtPurchase": 710
+        }
+      ]
+    }
+  ],
+  "offers": [],
+  "largeOffers": [],
+  "hiddenProducts": {
+    "items": []
+  }
+}
