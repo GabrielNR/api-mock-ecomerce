@@ -1,13 +1,16 @@
 import jsonServer from "json-server";
+import { createServer } from "http";
 
-const server = jsonServer.create();
+// Criamos o app do json-server
+const app = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
-server.use(middlewares);
-server.use(router);
+app.use(middlewares);
+app.use(router);
 
+// Exportamos o handler compatível com Vercel
 export default function handler(req, res) {
-  // Faz o json-server lidar com a request e response da Vercel
-  server(req, res);
+  const server = createServer(app);
+  server.emit("request", req, res);
 }
